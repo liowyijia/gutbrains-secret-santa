@@ -2,8 +2,10 @@
 
 Live interface: https://yijialiow.com/gutbrains-secret-santa/
 
+Participants select their name, spin once, and add their wishlist. No account or sign-in is required. Each name's result is saved on the server and can be reopened by selecting that name again. The wheel is centered in the drawing box, with the recipient below it.
+
 GitHub Pages serves `docs/` from `main`, using the personal domain already configured for this account. No additional DNS records are required.
 
-The interface uses the existing Sites backend for ChatGPT sign-in, account-owned wishlists, private one-time draws, and organizer controls. The database, account emails, sign-in credentials, and gift assignments are never committed here.
+The existing Sites backend stores wishlists and permanent name draws. Only organizer controls (Practice and full-list export) require the organizer's verified account. Selecting Yi Jia in the participant list never grants admin access. The database, organizer email, authentication credentials, and gift assignments are never committed here.
 
-This is a compiled deployment of source commit `ee809bd77d3fc528524781e69b1d507ed59f3ff9`. Source and the backend are maintained through the existing Sites project.
+This compiled deployment matches source commit `e6758a512fae85e7b447e3c8b171f58b4b53faa5`, maintained through the existing Sites project.
