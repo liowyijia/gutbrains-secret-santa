@@ -8,4 +8,4 @@ GitHub Pages serves `docs/` from `main`, using the personal domain already confi
 
 The existing Sites backend stores wishlists and permanent name draws. Only organizer controls (Practice and full-list export) require the organizer's verified account. Selecting Yi Jia in the participant list never grants admin access. The database, organizer email, authentication credentials, and gift assignments are never committed here.
 
-This compiled deployment matches source commit `e6758a512fae85e7b447e3c8b171f58b4b53faa5`, maintained through the existing Sites project.
+This compiled deployment matches source commit `eaebf8b96cf1dedc19c8155f309bb1b8a36a7e31`, maintained through the existing Sites project.
